@@ -10,14 +10,3 @@ Implement the breadthFirstSearch method on the Node class, which takes in an emp
 
 If you're unfamiliar with Breadth-first Search, we recommend watching the Conceptual Overview section of this question's video explanation before starting to code.
 
-Sample Input
-graph = A
-     /  |  \\
-    B   C   D
-   / \\     / \\
-  E   F   G   H
-     / \\   \\
-    I   J   K
-
-Sample Output
-["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"]
