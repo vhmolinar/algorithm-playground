@@ -1,3 +1,22 @@
+validate(
+  [12, 3, 1, 2, -6, 5, 0, -8, -1, 6, -5],
+  0,
+  [
+    [-8, 2, 6],
+    [-8, 3, 5],
+    [-6, 0, 6],
+    [-6, 1, 5],
+    [-5, -1, 6],
+    [-5, 0, 5],
+    [-5, 2, 3],
+    [-1, 0, 1]
+  ]
+);
+
+function validate(array, targetSum, expectedOutput) {
+  const res = threeNumberSum(array, targetSum)
+  console.assert(JSON.stringify(res) == JSON.stringify(expectedOutput), "output differs")
+}
 
 function threeNumberSum(array, targetSum) {
   const triples = [];
