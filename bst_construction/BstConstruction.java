@@ -11,6 +11,20 @@ public class BstConstruction {
     testCase3();
     testCase4();
     testCase5();
+    testCase6();
+  }
+
+  static void testCase6() {
+    var tree = new BST(10);
+    tree.insert(5);
+    tree.insert(15);
+    tree.insert(13);
+    tree.insert(22);
+    tree.insert(16);
+    tree.insert(5);
+    tree.insert(2);
+    tree.insert(1);
+    tree.print();
   }
 
   static void testCase5() {
