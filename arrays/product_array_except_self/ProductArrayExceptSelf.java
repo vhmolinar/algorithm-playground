@@ -1,4 +1,4 @@
-package code;
+package arrays.product_array_except_self;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package bst_construction;
+package binary_search_trees.bst_construction;
 
 import java.util.ArrayList;
 import java.util.List;

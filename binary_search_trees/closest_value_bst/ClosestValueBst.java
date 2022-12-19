@@ -1,4 +1,4 @@
-package closest_value_bst;
+package binary_search_trees.closest_value_bst;
 
 public class ClosestValueBst {
 

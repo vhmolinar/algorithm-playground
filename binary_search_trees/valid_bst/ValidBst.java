@@ -1,4 +1,4 @@
-package valid_bst;
+package binary_search_trees.valid_bst;
 
 public class ValidBst {
 
