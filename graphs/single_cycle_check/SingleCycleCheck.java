@@ -1,3 +1,5 @@
+package graphs.single_cycle_check;
+
 import java.util.HashSet;
 
 public class SingleCycleCheck {
