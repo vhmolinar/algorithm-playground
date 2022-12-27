@@ -19,13 +19,11 @@ public class ProductArrayExceptSelf {
   private int[] productExceptSelf(int[] nums) {
     var resultingProduct = new int [nums.length];
 
-    var historicProduct = new int [nums.length];
     var accumulativeProduct = 1;
 
     for (var i = 0; i < nums.length; i += 1) {
       resultingProduct[i] = accumulativeProduct;
       accumulativeProduct *= nums[i];
-      historicProduct[i] = accumulativeProduct;
     }
 
     accumulativeProduct = nums[nums.length - 1];
