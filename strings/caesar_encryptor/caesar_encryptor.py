@@ -1,3 +1,5 @@
+# T: O(N)
+# S: O(N)
 def caesarCipherEncryptor(input, key):
   enctrypted: str = ''
 
