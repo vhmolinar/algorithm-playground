@@ -12,9 +12,9 @@ For example, given the graph illustrated below, with width = 2 and height = 3, t
 |   |   |
 |   |   |
 
-Down, Down, Right
-Right, Down, Down
-Down, Right, Down
+Down, Down, Right  
+Right, Down, Down  
+Down, Right, Down  
 
 Note: you may assume that width * height >= 2. In other words, the graph will never be a 1x1 grid.
 
