@@ -1,4 +1,6 @@
-def isMonotonic(array):
+# T: O(n)
+# S: O(1)
+def is_monotonic(array):
   direction: str = None
   last_number: int = None
   for i in range(0, len(array), 1):
@@ -14,5 +16,5 @@ def isMonotonic(array):
   return True
 
 if __name__ == "__main__":
-  assert isMonotonic([-1, -5, -10, -1100, -900, -1101, -1102, -9001]) == False
-  assert isMonotonic([1, 1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 9, 10, 11]) == True
+  assert is_monotonic([-1, -5, -10, -1100, -900, -1101, -1102, -9001]) == False
+  assert is_monotonic([1, 1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 8, 9, 10, 11]) == True
